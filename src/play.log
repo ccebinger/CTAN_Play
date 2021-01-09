@@ -1,0 +1,172 @@
+
+
+############################################################################
+
+
+[2021-01-09 12:18:40]  /usr/local/texlive/2020/bin/x86_64-linux/autoinst, version 20201218
+
+Command was:
+
+    "/usr/local/texlive/2020/bin/x86_64-linux/autoinst -target=texmf -vendor=public -typeface=Play -encoding=OT1,T1,TS1,LY1 Play-Bold.otf Play-Regular.otf"
+
+----------------------------------------------------------------------------
+
+I'm using the following options:
+
+    encoding(s):        OT1, T1, LY1
+    NFSS:               rm (serif)
+
+    lining:             yes
+    oldstyle:           yes
+    proportional:       yes
+    tabular:            yes
+    ts1:                yes
+    smallcaps:          yes
+    swash:              yes
+    titling:            yes
+    superiors:          yes
+    inferiors:          none
+    ornaments:          yes
+    fractions:          no
+    ligatures:          yes
+
+    target:             texmf
+    extra:              
+
+    figurekern:         keep
+
+    nfssweight:         
+    nfsswidth:          
+
+    math:               no
+    mathspacing:        0
+
+    fontname suffix:    (none)
+
+----------------------------------------------------------------------------
+
+Results of font info parsing:
+
+    Play-Bold.otf
+        Name:       Play-Bold
+        Family:     Play
+        Subfamily:  
+        Weight:     bold (700)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, c2sc, case, ccmp, dlig, dnom, frac, kern, liga, mark, mkmk, numr, onum, ordn, pnum, salt, sinf, smcp, ss01, subs, sups, tnum
+
+    Play-Regular.otf
+        Name:       Play-Regular
+        Family:     Play
+        Subfamily:  
+        Weight:     regular (400)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   aalt, c2sc, case, ccmp, dlig, dnom, frac, kern, liga, mark, mkmk, numr, onum, ordn, pnum, salt, sinf, smcp, ss01, subs, sups, tnum
+
+----------------------------------------------------------------------------
+
+NFSS mappings:
+
+    ul  =>  
+    el  =>  
+    l   =>  
+    sl  =>  
+    m   =>  regular
+    sb  =>  
+    b   =>  bold
+    eb  =>  
+    ub  =>  
+
+    uc  =>  
+    ec  =>  
+    c   =>  
+    sc  =>  
+    m   =>  regular
+    sx  =>  
+    x   =>  
+    ex  =>  
+    ux  =>  
+
+    ------------------------------------------------------------------------
+
+    Play-Bold.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LY1     LF      n       kern, liga, pnum
+            LY1     LF      sc      kern, liga, pnum, smcp
+            LY1     OsF     n       kern, liga, onum, pnum
+            LY1     OsF     sc      kern, liga, onum, pnum, smcp
+            LY1     Sup     n       sups
+            LY1     TLF     n       kern, liga, tnum
+            LY1     TLF     sc      kern, liga, smcp, tnum
+            LY1     TOsF    n       kern, liga, onum, tnum
+            LY1     TOsF    sc      kern, liga, onum, smcp, tnum
+            OT1     LF      n       kern, liga, pnum
+            OT1     LF      sc      kern, liga, pnum, smcp
+            OT1     OsF     n       kern, liga, onum, pnum
+            OT1     OsF     sc      kern, liga, onum, pnum, smcp
+            OT1     Sup     n       sups
+            OT1     TLF     n       kern, liga, tnum
+            OT1     TLF     sc      kern, liga, smcp, tnum
+            OT1     TOsF    n       kern, liga, onum, tnum
+            OT1     TOsF    sc      kern, liga, onum, smcp, tnum
+            T1      LF      n       kern, liga, pnum
+            T1      LF      sc      kern, liga, pnum, smcp
+            T1      OsF     n       kern, liga, onum, pnum
+            T1      OsF     sc      kern, liga, onum, pnum, smcp
+            T1      Sup     n       sups
+            T1      TLF     n       kern, liga, tnum
+            T1      TLF     sc      kern, liga, smcp, tnum
+            T1      TOsF    n       kern, liga, onum, tnum
+            T1      TOsF    sc      kern, liga, onum, smcp, tnum
+            TS1     LF      n       onum, pnum
+            TS1     OsF     n       onum, pnum
+            TS1     TLF     n       onum, tnum
+            TS1     TOsF    n       onum, tnum
+
+    ------------------------------------------------------------------------
+
+    Play-Regular.otf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            LY1     LF      n       kern, liga, pnum
+            LY1     LF      sc      kern, liga, pnum, smcp
+            LY1     OsF     n       kern, liga, onum, pnum
+            LY1     OsF     sc      kern, liga, onum, pnum, smcp
+            LY1     Sup     n       sups
+            LY1     TLF     n       kern, liga, tnum
+            LY1     TLF     sc      kern, liga, smcp, tnum
+            LY1     TOsF    n       kern, liga, onum, tnum
+            LY1     TOsF    sc      kern, liga, onum, smcp, tnum
+            OT1     LF      n       kern, liga, pnum
+            OT1     LF      sc      kern, liga, pnum, smcp
+            OT1     OsF     n       kern, liga, onum, pnum
+            OT1     OsF     sc      kern, liga, onum, pnum, smcp
+            OT1     Sup     n       sups
+            OT1     TLF     n       kern, liga, tnum
+            OT1     TLF     sc      kern, liga, smcp, tnum
+            OT1     TOsF    n       kern, liga, onum, tnum
+            OT1     TOsF    sc      kern, liga, onum, smcp, tnum
+            T1      LF      n       kern, liga, pnum
+            T1      LF      sc      kern, liga, pnum, smcp
+            T1      OsF     n       kern, liga, onum, pnum
+            T1      OsF     sc      kern, liga, onum, pnum, smcp
+            T1      Sup     n       sups
+            T1      TLF     n       kern, liga, tnum
+            T1      TLF     sc      kern, liga, smcp, tnum
+            T1      TOsF    n       kern, liga, onum, tnum
+            T1      TOsF    sc      kern, liga, onum, smcp, tnum
+            TS1     LF      n       onum, pnum
+            TS1     OsF     n       onum, pnum
+            TS1     TLF     n       onum, tnum
+            TS1     TOsF    n       onum, tnum
